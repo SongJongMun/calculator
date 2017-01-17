@@ -9,7 +9,6 @@ int main(int argc, char* argv[])
 {
 	int a, b, c;
 	char operator;
-	a = 0;
 	
 	printf("Please enter a expression");
 	scanf("%d %c %d", &a, &operator, &b);
