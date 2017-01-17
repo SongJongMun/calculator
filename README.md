@@ -7,4 +7,9 @@ once i do commit, this is second
 
 haha this is third!
 
+<<<<<<< HEAD
 hahahahahaefhsadfhsdh
+=======
+this is brunch test
+hahaha
+>>>>>>> testing
