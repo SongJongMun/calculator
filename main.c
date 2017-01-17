@@ -47,8 +47,8 @@ int sub(int number1, int number2)
  
 int multi(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	// 곱한 값을 리턴
+	return number1 * number2;
 }
  
 int div(int number1, int number2)
