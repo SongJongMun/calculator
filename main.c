@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 	int number1, number2, result;
 	char operator;
 
-	printf("Please enter a expression: ");
+	 printf("Please enter a expression: ");
 	scanf("%d %c %d", &number1, &operator, &number2);
 
 	switch (operator)
@@ -36,22 +36,20 @@ int main(int argc, char* argv[])
 
 int add(int number1, int number2)
 {
-	return number1 + number2;
+	return 0;
 }
 
 int sub(int number1, int number2)
 {
-  int result = number1 - number2;
-	return result;
+  return number1 - number2;
 }
 
 int multi(int number1, int number2)
 {
-	// °öÇÑ °ªÀ» ¸®ÅÏ
-	return number1 * number2;
+	return 0;
 }
 
 int div(int number1, int number2)
 {
-	return number1 / number2;
+	return 0;
 }
