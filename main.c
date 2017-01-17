@@ -1,18 +1,18 @@
 #include <stdio.h>
- 
+
 int add(int, int);
 int sub(int, int);
 int div(int, int);
 int multi(int, int);
- 
+
 int main(int argc, char* argv[])
 {
 	int number1, number2, result;
 	char operator;
-	
-	printf("¼ö½ÄÀ» ÀÔ·ÂÇØ¶ó : ");
+  
+	printf("Please enter a expression (exxxxx : 1 + 2 ) : ");
 	scanf("%d %c %d", &number1, &operator, &number2);
-	
+
 	switch (operator)
 	{
 		case '+':
@@ -28,29 +28,29 @@ int main(int argc, char* argv[])
 			result = div(number1, number2);
 			break;
 	}
-	
+
 	printf("result is %d.\n", result);
-	
+
 	return 0;
 }
- 
+
 int add(int number1, int number2)
 {
 	return number1 + number2;
 }
- 
+
 int sub(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+  int result = number1 - number2;
+	return result;
 }
- 
+
 int multi(int number1, int number2)
 {
-	// °öÇÑ °ªÀ» ¸®ÅÏ
+	// Â°Ã¶Ã‡Ã‘ Â°ÂªÃ€Â» Â¸Â®Ã…Ã
 	return number1 * number2;
 }
- 
+
 int div(int number1, int number2)
 {
 	return number1 / number2;
